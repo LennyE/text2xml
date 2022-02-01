@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Text to XML</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <!-- meta -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/text2xml.js"></script>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="header">
+                        <h2>Input</h2>
+                        <button id="loadsampledata">Load sample data</button>
+                    </div>
+                    <textarea id="input" autofocus placeholder="Add row based structure here."></textarea>
+                </div>
+            
+                <div class="col">
+                    <div class="header">
+                        <h2>Output</h2>
+                    </div>
+                    <textarea id="output" placeholder="Generated XML will show here in real time."></textarea>
+                </div>
+            </div><!-- .row -->
+        </div><!-- .container -->
+        
+    </body>
+</html>
